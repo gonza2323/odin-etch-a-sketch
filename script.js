@@ -3,7 +3,7 @@
 const resizeButton = document.querySelector('.resizeButton');
 
 function createGrid(size) {
-    let result = document.createElement('div');
+    const result = document.createElement('div');
     result.classList.add('grid');
     
     for (let i = 0; i < size; i++) {
@@ -18,7 +18,7 @@ function createGrid(size) {
     }
 
     result.addEventListener('mouseover', e => {
-        e.target.style.background = 'black';
+        e.target.style.backgroundColor = 'black';
         e.stopPropagation();
     })
     
