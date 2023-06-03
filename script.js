@@ -12,3 +12,8 @@ for (let i = 0; i < 16; i++) {
     row.classList.add('row');
     grid.appendChild(row);
 }
+
+grid.addEventListener('mouseover', e => {
+    e.target.style.background = 'black';
+    e.stopPropagation();
+})

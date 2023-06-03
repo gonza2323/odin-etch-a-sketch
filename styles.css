@@ -4,16 +4,25 @@
 
 .grid {
     background-color: aquamarine;
+    max-width: 400px;
+    aspect-ratio: 1;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
 }
 
 .row {
+    background-color: blue;
+    flex: 1;
+
     display: flex;
-    justify-content: center;
 }
 
 .pixel {
-    width: 20px;
-    height: 20px;
     background-color: coral;
     border: 1px solid black;
+    flex: 1;
 }
