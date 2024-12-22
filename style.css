@@ -16,6 +16,10 @@ body {
     padding: 8px;
 }
 
+.top {
+    display: flex;
+}
+
 .grid {
     width: 100%;
     max-width: 800px;
